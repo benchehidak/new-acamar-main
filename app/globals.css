@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+        background-image : url('/assets/images/Hotcue X Acamar.jpg');
+        background-size: cover;
+        background-position-y: center;
+}
+
+.bgimage{
+        padding: 1% 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: calc(100vh - 200px);
+}
+
+.title{
+        font-size: clamp(64px, 10vw, 128px);
+}
+.content{
+        font-size: clamp(34px, 3vw, 60px);
+        padding: 0 7%;
+        
+}
+.bookbtn{
+        margin-top: 3%;
+        width: 250px;
+}
+.bookbtn:hover{
+        background-color: #ff7e03;
+}
+.loginbtn:hover{
+        background-color: #dfd2f0;
+}
+footer{
+        font-size: clamp(12px, 1vw, 14px);
+}
+th{
+        cursor: pointer;
+}
+.countdown-timer {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box {
+width: 100px;
+height: 100px;
+border: 2px solid #fff;
+border-radius: 10px;
+margin: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.time {
+font-size: 24px;
+font-weight: bold;
+}
+
+.label {
+font-size: 14px;
+text-transform: uppercase;
+}
+.contactinfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2%;
+        padding-bottom: 0;
+        text-align: center;
+       
+        font-size: clamp(20px, 1vw, 81px);
+        font-family: 'Goldman', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+}
+
+
+@-webkit-keyframes ticker {
+        0% {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+          visibility: visible;
+        }
+        100% {
+          -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+        }
+      }
+      @keyframes ticker {
+        0% {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+          visibility: visible;
+        }
+        100% {
+          -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+        }
+      }
+      .ticker-wrap {
+        
+        width: 100%;
+        overflow: hidden;
+        height: 8rem;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding-left: 100%;
+        box-sizing: content-box;
+        font-family: 'Nexa';
+        font-size: 4rem;
+      }
+      .ticker-wrap .ticker {
+        display: inline-block;
+        height: 4rem;
+        line-height: 4rem;
+        white-space: nowrap;
+        padding-right: 100%;
+        box-sizing: content-box;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-name: ticker;
+        animation-name: ticker;
+        -webkit-animation-duration: 30s;
+        animation-duration: 30s;
+      }
+      .ticker-wrap .ticker__item {
+        display: inline-block;
+        padding: 0 2rem;
+        font-size: 2rem;
+        color: white;
+        text-transform: uppercase;
+      }
+      .ticker__item {
+        color: white;
+        text-decoration: none;
+        font-size: 3rem !important;
+      }
+
+@media screen and (max-width: 768px) 
+{
+        .content{
+                
+                padding: 0;
+                font-size: clamp(30px, 3vw, 60px);
+        }
+        .bookbtn{
+                margin-top: 10%;
+                width: 200px;
+        }
+        footer
+        {
+                font-size: clamp(8px, 1vw, 10px);
+        }
+        .contactinfo
+        {
+                padding: 15% 0;
+        }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "ACAMAR APP",
+    "short_name": "ACAMAR",
+    "icons": [
+      {
+        "src": "/ico.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/ico.png",
+        "sizes": "384x384",
+        "type": "image/png"
+      },
+      {
+        "src": "/ico.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "/admin",
+    "display": "standalone",
+    "orientation": "portrait"
+  }

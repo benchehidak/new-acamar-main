@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "649a146a9beff9f5aa5ce09b"
+  },
+  "name": "kdeco",
+  "email": "kdeco@gmail.com",
+  "password": "$2a$10$4QGZzoYZzbICU9ThczdJge4D5oMo2oBw2iJQVEUYBh7CNcrbxVYzq",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "649a159b9beff9f5aa5ce09c"
+  },
+  "name": "arwa",
+  "email": "arwa@gmail.com",
+  "password": "$2a$10$S5LGcr4rLIrfsBjMO18T/eU0UQjCBWSrSJmR2eRRLlVhehEZojGIm",
+  "role": "seller"
+},
+{
+  "_id": {
+    "$oid": "649a164a9beff9f5aa5ce09f"
+  },
+  "name": "glwi",
+  "email": "glwi@gmail.com",
+  "password": "$2a$10$/2xzwtIlIRoGZidjZexmlup7BnHncMeqGXHxb0MqYTbRWFXTPtU9W",
+  "role": "seller"
+},
+{
+  "_id": {
+    "$oid": "649a16c99beff9f5aa5ce0a0"
+  },
+  "name": "7andakld",
+  "email": "7andakld@gmail.com",
+  "password": "$2a$10$X3TWJ4tMcWH5e9bl0P3NpebT2NR1VR5.pWq40BRpD6FruSkEjHdUa",
+  "role": "seller"
+},
+{
+  "_id": {
+    "$oid": "649a17299beff9f5aa5ce0a1"
+  },
+  "name": "whitefeel",
+  "email": "whitefeel@gmail.com",
+  "password": "$2a$10$dHUYHM8kFFQVnUsnZjI94OomfGx.jQv8T3fdFsobukvUt4Xadat3i",
+  "role": "seller"
+},
+{
+  "_id": {
+    "$oid": "653449bb863263494f614a37"
+  },
+  "name": "dejla",
+  "email": "dejla@gmail.com",
+  "password": "$2a$10$dHUYHM8kFFQVnUsnZjI94OomfGx.jQv8T3fdFsobukvUt4Xadat3i",
+  "role": "seller"
+}]
