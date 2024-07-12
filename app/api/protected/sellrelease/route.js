@@ -125,7 +125,7 @@ export async function POST(req) {
               </ul>
               <p>We look forward to welcoming you to HOTCUE X ACAMAR!</p>
               <p>Best regards,<br>
-              ACAMAR</p>
+              HOTCUE X ACAMAR</p>
               <p>Here is your ticket : </p>
               <img src="cid:qrcode" alt="QR Code" />
             </body>

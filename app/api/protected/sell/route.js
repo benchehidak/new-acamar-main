@@ -68,7 +68,7 @@ export async function POST(req) {
         secure: false, // true for 465, false for other ports
         auth: {
           user: 'acamar.org@gmail.com',//'no-reply@gaviota.com.tn', // your email address
-          pass: 'ksqk mcnp eond qdop' //'Dalibendhiab@10' // your email password
+          pass: process.env.GOOGLE_EMAIL //'Dalibendhiab@10' // your email password
         }
   
       })
