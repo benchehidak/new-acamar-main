@@ -1,11 +1,25 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    appDir: true,
-  },
-}
+    serverActions: {
+      allowedOrigins: ["localhost:9400"],
+      // allowedForwardedHosts: ["localhost:3000"],
+      // ^ You might have to use this property depending on your exact version.
+    }
+  }
+};
+
+ module.exports = nextConfig
+
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   experimental: {
+//     appDir: true,
+//   },
+// }
  
-module.exports = nextConfig
+// module.exports = nextConfig
 
 // const withPWA = require ("next-pwa") ({
 //   dest: "public",
