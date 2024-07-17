@@ -66,7 +66,7 @@ const Textinput = ({
             disabled={disabled}
             id={id}
             onChange={onChange}
-            required
+            // required
           />
         )}
         {!name && !isMask && (

@@ -18,7 +18,8 @@ export default function bookingPage(){
       const fetchData = async () => {
         try {
           const response = await axios.post('/api/protected/buyers', {});
-          setData(response.data);
+          const filteredData = response.data.filter(ticket => ticket.price !== 0);
+          setData(filteredData);
           setLoading(false);
           // console.log(response.data);
         } catch (error) {

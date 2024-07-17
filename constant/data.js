@@ -16,10 +16,15 @@ export const menuItems = [
     link: "/admin/sell",
   },
   {
+    title: "At Door",
+    icon: "heroicons:building-office",
+    link: "/admin/atdoor",
+  },
+  {
     title: 'Scan',
     icon: "heroicons:qr-code",
     link: '/admin/scan'
-  }
+  },
   
   
 ];
