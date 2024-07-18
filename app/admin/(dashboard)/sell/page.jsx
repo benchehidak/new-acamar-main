@@ -67,7 +67,7 @@ export default function SellPage() {
         }
     }
 
-    if (session.user.name != "kdeco") return <div>Access Denied</div>;
+    if (session?.user?.name != "kdeco") return <div>Access Denied</div>;
 
     return (
         <div className='sm:rounded-5xl -mx-4 flex-auto  px-4 py-10 sm:mx-0 sm:flex-none sm:p-24'>
