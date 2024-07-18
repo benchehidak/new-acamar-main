@@ -19,6 +19,11 @@ export const menuItems = [
     title: "At Door",
     icon: "heroicons:building-office",
     link: "/admin/atdoor",
+  },  
+  {
+    title: "BECH YZID 10",
+    icon: "heroicons:shopping-cart",
+    link: "/admin/scanplus",
   },
   {
     title: 'Scan',

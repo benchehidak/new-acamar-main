@@ -32,9 +32,14 @@ export default function SellPage() {
     const [modalContent, setModalContent] = useState('');
     const { data: session } = useSession();
     const releases = [
-        { value: "one", label: "At door 10" },
-        { value: "two", label: "At door 20" },
-        { value: "four", label: "At door 40" },
+        { value: "1", label: "At door 10" },
+        { value: "2", label: "At door 20" },
+        { value: "3", label: "At door 30" },
+        { value: "4x1", label: "pack 4 (10x4)" },
+        { value: "4x2", label: "pack 4 (20x4)" },
+        { value: "8x1", label: "pack 8 (10x8)" },
+        { value: "8x2", label: "pack 8 (20x8)" },
+
     ];
 
     const clearForm = () => {

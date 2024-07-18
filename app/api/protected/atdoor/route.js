@@ -11,24 +11,40 @@ export async function POST(req) {
     
     let price = 20;
     const {email, seller,release} = await req.json();
-    
-    if (release == 'one'){
-      price = 10;
-    }
-    else if (release == 'two'){
-      price = 20;
-    }
-    else if (release == 'four'){
-      price = 40;
-    }
 
+    switch (release) {
+        case '1':
+            price = 10;
+            break;
+        case '2':
+            price = 20;
+            break;
+        case '3':
+            price = 30;
+            break;
+        case '4x1':
+            price = 40;
+            break;
+        case '4x2':
+            price = 80;
+            break;
+        case '8x1':
+            price = 80;
+            break;
+        case '8x2':
+            price = 160;
+            break;
+
+        default:
+            price = 20;
+    }
 
     let result;
     try {
         result = await tickets.insertOne({
             uuid: uuid,
             name: 'At Door',
-            email: email || 'At Door' ,
+            email:  'At Door' ,
             phoneNumber: '0',
             seller: seller,
             status: 'scanned',
